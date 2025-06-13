@@ -33,7 +33,7 @@ function DropdownMenuTrigger({
 
 function DropdownMenuContent({
   className,
-  sideOffset = 4, // Default sideOffset value
+  sideOffset = 4,
   ...props
 }: React.ComponentProps<typeof DropdownMenuPrimitive.Content>) {
   return (
@@ -66,7 +66,7 @@ function DropdownMenuItem({
   ...props
 }: React.ComponentProps<typeof DropdownMenuPrimitive.Item> & {
   inset?: boolean
-  variant?: "default" | "destructive" // Add more variants as needed
+  variant?: "default" | "destructive"
 }) {
   return (
     <DropdownMenuPrimitive.Item
