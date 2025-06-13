@@ -3,11 +3,8 @@ import { BadgePlus } from "lucide-react";
 
 const Homepage = () => {
   return (
-    <div className='h-screen flex items-center justify-center'>
-      <Button size='xl' className='rounded-full text-custom-color'> 
-        <BadgePlus/>
-        Click me 
-      </Button>
+    <div className="">
+
     </div>
   )
 }
